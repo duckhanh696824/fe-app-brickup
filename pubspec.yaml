@@ -1,0 +1,29 @@
+name: brickup
+description: "Brickup - Photo Chain social platform with daily quests, XP ranking, and community chains."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.4
+  flutter_staggered_grid_view: ^0.7.0
+  percent_indicator: ^4.2.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
